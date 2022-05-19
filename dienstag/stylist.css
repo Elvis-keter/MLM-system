@@ -1,0 +1,185 @@
+body {
+	background: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4%;
+	height: 180vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 950px;
+	height: 100%;
+	padding: 60px;
+	background-color: #000000;
+	border-radius: 15px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
+
+h2 {
+	float: left;
+	color: white;
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+	width: 50%;
+	height: 25%;
+	margin-top: 0px;
+	padding: 3px;
+	box-sizing: border-box;
+	border: solid 1px white;
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	letter-spacing: 2px;
+}
+
+h3 {
+	float: right;
+	color: lawngreen;
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+	text-align: right;
+	width: 50%;
+	height: 25%;
+	margin-top: 0px;
+	padding: 3px;
+	box-sizing: border-box;
+	border: solid 1px white;
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	letter-spacing: 2px;
+}
+
+h4 {
+	float: left;
+	text-align: center;
+	color: red;
+	font-size: 50px;
+	padding: 2px;
+	width: 33.3%;
+	margin-top: 1px;
+}
+
+h5 {
+	float: left;
+	text-align: center;
+	color: lawngreen;
+	font-size: 50px;
+	padding: 2px;
+	width: 33.3%;
+	margin-top: -4px;
+}
+
+a {
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: lightgreen;
+	font-size: 30px;
+	padding: 13px;
+	width: 22%;
+	margin-top: -4px;
+	border-radius: 39px;
+}
+
+p {
+	float: left;
+	text-align: center;
+	font-size: 15px;
+	font-family: monospace;
+	width: 33.3%;
+	padding: 20px;
+	margin-top: -72px;
+	color: whitesmoke;
+}
+
+#p1 {
+	margin-top: 18px;
+	text-align: right;
+	padding: 20px;
+}
+
+.ba {
+	background-color: #333;
+	border-radius: 19px;
+	padding: 20px;
+	height: 240px;
+
+}
+
+.bb {
+	background-color: #333;
+	border-radius: 19px;
+	margin-top: 42px;
+	padding: 20px;
+	height: 240px;
+
+}
+
+.bc {
+	background-color: #333;
+	border-radius: 19px;
+	margin-top: 42px;
+	padding: 20px;
+	height: 240px;
+
+}
+
+.bd {
+	background-color: #333;
+	border-radius: 19px;
+	margin-top: 42px;
+	padding: 20px;
+	height: 240px;
+
+}
+
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 53px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+a:hover{
+	opacity: .7;
+}

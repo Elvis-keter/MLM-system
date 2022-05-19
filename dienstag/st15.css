@@ -1,0 +1,189 @@
+*{
+	font-family: serif;
+	box-sizing: border-box;
+}
+
+body {
+	background : #333;
+	background-image: url('images/space.png');
+	background-blend-mode: soft-light;
+	background-repeat: round;
+	margin-left: 7%;
+	padding : 0;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+	overflow-x: hidden;
+	height: 130vh;
+}
+
+h1 {
+	color: palegreen;
+	margin-left: 7%;
+}
+
+h2{
+	color: white;
+	margin-left: 7%;
+	padding: 4px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	color: blue;
+}
+
+.label1, .label2, .label3 {
+	box-sizing: border-box;
+	float: left;
+	color: green;
+	width: 24.3%;
+	height: 100%;
+	text-align: center;
+	text-indent: initial;
+	display: inline-block;
+	background-color: white;
+	padding: 11px;
+	margin-right: 6%;
+	border-radius: 11px;
+	border: solid 2px black;
+}
+
+.parent {
+	box-sizing: border-box;
+	width: 50%;
+	height: 9%;
+	display: inline-block;
+	margin-left: 7%;
+	margin-bottom: 19px;
+	padding: 0px;
+	border-radius: 9px;
+}
+
+label {
+	color: green;
+}
+
+#circle1 {
+	background: lightslategray;
+	width: 55px;
+	height: 53px;
+	border-radius: 50%;
+	margin-right: 2.5%;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	padding: 11px;
+}
+
+#circle2 {
+	background: skyblue;
+	width: 55px;
+	height: 53px;
+	border-radius: 50%;
+	margin-right: 2.5%;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	padding: 11px;
+}
+
+#circle3 {
+	background: springgreen;
+	width: 55px;
+	height: 53px;
+	border-radius: 50%;
+	margin-right: 2.5%;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	padding: 11px;
+}
+
+.btn {
+	background-color: limegreen;
+	width: 50%;
+	display: inline-block;
+	margin-left: 7%;
+	padding: 8px;
+	border-radius: 9px;
+}
+
+.firstbtn {
+	background-color: limegreen;
+	border-top: 1px black;
+	border-left: 1px black;
+	border-bottom: 1px black;
+	font-family: sans-serif;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-size: 24px;
+	box-sizing: border-box;
+}
+
+.secondbtn {
+	background-color: limegreen;
+	box-sizing: border-box;
+	border: none;
+	font-family: sans-serif;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-size: 24px;
+}
+
+.child {
+	box-sizing: border-box;
+	overflow-y: hidden;
+	background-color: darkslategray;
+	width: 50%;
+	height: 38.5%;
+	display: inline-block;
+	margin-left: 7%;
+	margin-top: 9px;
+	padding: 3px;
+	border-radius: 9px;
+}
+
+.bill, .agent, .draw {
+	width: 98%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: darkslategray;
+	color: white;
+	margin-left: 4px;
+	margin-top: 1%;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 17px;
+	border-radius: 1px;
+	border-left: 1px;
+	border-top: 1px;
+	border-right: 1px;
+	height: 10vh;
+}
+
+.fa-angle-right {
+	float: right;
+	padding: 17px;
+	width: 5%;
+}
+
+.agent:hover {
+	background-color: red;
+}
+
+.bill:hover {
+	background-color: lightsteelblue;
+}
+
+.draw:hover {
+	background-color: lightsalmon;
+}
+
+.firstbtn:hover, .secondbtn:hover {
+  background-color: aquamarine;
+}

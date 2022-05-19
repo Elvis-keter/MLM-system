@@ -1,0 +1,153 @@
+*{
+	font-family: serif;
+	box-sizing: border-box;
+}
+
+body {
+	background : #f4faf2;
+	margin: 5px;
+	margin-top: 0px;
+	width: 100%;
+	padding : 0;
+	color : #333;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	height: 140vh;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+#outerdiv {
+	font: bold;
+	background-color: #787878;
+	font-size: 20px;
+}
+
+.nachbar {
+	resize: both;
+  
+}
+
+.nachbar a {
+	float: left;
+	width: 34%;
+	font-family: sans-serif;
+	background-blend-mode: soft-light;
+	background-repeat: round;
+	font-size: 30px;
+	font: bold;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: ghostwhite;
+	text-align: center;
+	padding: 44px 46px;
+	display: inline-block;
+	border: solid 1px lightgrey;
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+.fund {
+	background-image: url('images/fund.jpg');
+}
+
+.deposit {
+	background-image: url('images/deposit.jpg');
+}
+
+.inv {
+	background-image: url('images/invite.jpg');
+}
+
+.faq {
+	background-image: url('images/faqs.jpg');
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  margin-left: 13px;
+  font: bold;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+form {
+	background-color: white;
+	background-image: none;
+	display: inline-block;
+	border: solid 1px lightgrey;
+	width: 100%;
+	height: 90vh;
+	padding: 20px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	border-radius: 6px;
+}
+
+marquee{
+		  font-size: 30px;
+		  font-weight: 800;
+		  color: #8ebf42;
+		  font-family: sans-serif;
+		  border: solid 1px;
+		  margin-bottom: 1px;		  
+}
+
+.dropdown {
+		  float: left;
+		  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 19px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: burlywood;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  margin-left: 0%;;
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: lightcyan;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
